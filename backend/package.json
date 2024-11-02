@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Deep",
+  "license": "MIT",
+  "description": "Backend for discussion app",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0",
+    "uuid": "^11.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
