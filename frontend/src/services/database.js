@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const Database = (() => {
-  const baseURL = 'http://localhost:3001/api/data';
+  const baseURL = '/api/data';
 
   // get comment
   const getComment = (id = "") => {
