@@ -10,6 +10,9 @@ morgan.token('content', (req, res) => JSON.stringify(req.body));
 // creating server
 const app = express();
 
+// installing ui
+app.use(express.static('dist'));
+
 // installing middlewares
 app.use(cors());
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms - :content'));
